@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body {
+  background: #1B2831;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.menu-1{
+  display: flex;
+  align-items: center;
+}
+
+.coracao {
+  height: 50px;
+  width: 50px;
+}
+
+#nome{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu-itens{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  
+}
+
+li {
+  display: inline;
+  padding: 16px;
+  list-style: none;
+   
+}
+
+.a-menu{
+  color: white;
+}
+
+.a-menu:hover{
+  border: 2px solid #314E62;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.conteiner-main {
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 340px;
+  margin-top:  10px;
+  margin-bottom: 100px;
+}
+
+.apresentação{
+  display: grid;
+  gap: 60px;
+}
+
+.instagram{
+  color: #DD4983;
+}
+
+.github{
+  color: #7E898F;
+}
+
+h1.sobre-me {
+  font-weight: 700;
+  font-size: 40px;
+  color: #A5F9B5;
+}
+
+h2{
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.technology{
+  display: grid;
+  gap: 50px;
+}
+
+.technology-1{
+  display: flex;
+}
+
+.python-cor{
+  color: #F5D466;
+}
+
+.technology-2{
+  display: flex;
+}
+
+.rocketseat{
+  color: #7C4CE6;
+}
+
+.technology-3{
+  display: flex;
+}
+
+.python {
+  width: 50px;
+  height: 25px;
+}
+
+.imgem-de-tech{
+  width: 25px;
+  height: 25px;
+}
+
+p{
+  color: #fff;
+}
+
+.footer{
+  background-color: #1C2C35;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.area-dev{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-items: center; 
+}
+
+.img-instagram{
+  width: 50px;
+  height: 35px;
+}
+
+.img-github{
+  width: 45px;
+  height: 35px;
+}
+
+.linkedin{
+  width: 40px;
+  height: 35px;
+}
+
+
